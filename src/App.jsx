@@ -1,12 +1,20 @@
+import './AeroButton.css'
+
 export default function App() {
   return (
-    <main className="app-shell">
-      <section className="card">
-        <p className="eyebrow">Hello</p>
-        <h1>Welcome to my React app</h1>
+    <main>
+      <section>
+        <h1>Ted (Gfyefrher)</h1>
         <p>
-          This app was created in the repo root and is ready to build and run.
+          About Me. I love planes, technology and gaming. I am currently working on a game in the <br></br> source engine.
         </p>
+        <section id="spacer"></section>
+        <p>Good things:</p>
+        <a href="https://tritrisim.com"><button class="frutiger-aero-button medium">TriTriSim</button></a>
+        <section id="smallspacer"></section>
+        <a href="https://dhanendran.net"><button class="frutiger-aero-button medium">Dhanendran.net</button></a>
+        <section id="smallspacer"></section>
+        <a href="mailto:hk2f4vc52@mozmail.com"><button class="frutiger-aero-button medium">Email</button></a>
       </section>
     </main>
   )
