@@ -15,6 +15,9 @@ export default function App() {
         <a href="https://dhanendran.net"><button class="frutiger-aero-button medium">Dhanendran.net</button></a>
         <section id="smallspacer"></section>
         <a href="mailto:hk2f4vc52@mozmail.com"><button class="frutiger-aero-button medium">Email</button></a>
+        <section id="spacer"></section>
+        <p>My latest project is called FireHomer it is an extention that allows you to easily change your Firefox homepage</p>
+        <a href="https://github.com/Bofamily/FireHomer"><button class="frutiger-aero-button medium">FireHomer</button></a>
       </section>
     </main>
   )
